@@ -73,19 +73,21 @@ Write-Output "$($file.Name) - $($file.Length) bytes"
 }
 ```
 
-Editors for PowerShell Scripting
+### Editors for PowerShell Scripting
 
 When writing and debugging PowerShell scripts, using a dedicated editor can greatly enhance your productivity. Here are two popular options:
 
-Windows PowerShell Integrated Scripting Environment (ISE)
+#### Windows PowerShell Integrated Scripting Environment (ISE)
 
-What it is: A built-in editor for Windows PowerShell (versions 1.0 to 5.1).
-Features:
-Syntax highlighting.
-Debugging tools (breakpoints, step-through execution).
-Integrated console for testing scripts.
-Multi-tab interface for working with multiple scripts.
-Best for: Beginners and users working on older versions of PowerShell.
+**What it is**: A built-in editor for Windows PowerShell (versions 1.0 to 5.1).
+**Features**:
+
+- Syntax highlighting.
+- Debugging tools
+  - (breakpoints, step-through execution).
+- Integrated console for testing scripts.
+- Multi-tab interface for working with multiple scripts.
+  **Best for**: Beginners and users working on older versions of PowerShell.
 
 ISE Image goes here
 
