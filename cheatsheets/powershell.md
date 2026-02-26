@@ -1,21 +1,25 @@
 # PowerShell
 
 ![powershell_icon](PowerShell_5.0_icon.png)
-| Task | Cmdlet | Common Aliases|
-|------|--------|---------------|
-|Get help| Get-Help <Command-Name>| man|
-|List commands| |Get-Command| |
-|Get current location| Get-Location| pwd|
-|Change location|Set-Location <Path>| cd|
-|List directory contents| Get-Childitem| is,dir,gci|
-|Get file content| Get-Content <file=Path>|gc,cat|
-|Copy items| Copy-Item <source><Destination>|cp,cpi|
-|Move items| Move-Item <Name><Destination>| mv, mi|
-|Remove items|Remove-Item <Name>| rm|
-|Create new items| New-Item <Name>| mkdire,touch|
-|Manage processes|Get-Process, Stop-Process| |
-|Manage services| Get-Service, Start-Service| |
-|Get-Content|Gets the content of a file| |
+
+## Powershell useful Commands
+
+| Task                    | Cmdlet                                          | Common Aliases |
+| ----------------------- | ----------------------------------------------- | -------------- | --- |
+| Get help                | Get-Help <Command-Name>                         | man            |
+| List commands           |                                                 | Get-Command    |     |
+| Get current location    | Get-Location                                    | pwd            |
+| Change location         | Set-Location <Path>                             | cd             |
+| List directory contents | Get-Childitem                                   | is,dir,gci     |
+| Get file content        | Get-Content <file=Path>                         | gc,cat         |
+| Copy items              | Copy-Item <source><Destination>                 | cp,cpi         |
+| Move items              | Move-Item <Name><Destination>                   | mv, mi         |
+| Remove items            | Remove-Item <Name>                              | rm             |
+| Create new items        | New-Item <Name>                                 | mkdire,touch   |
+| Manage processes        | Get-Process, Stop-Process                       |                |
+| Manage services         | Get-Service, Start-Service                      |                |
+| Add-Content             | Appends content such as words or data to a file |                |
+| Get-Content             | Gets the content of a file                      |                |
 
 About PowerShell
 
