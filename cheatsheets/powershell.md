@@ -1,6 +1,20 @@
 # PowerShell
 
-PowerShell Logo goes here
+![powershell_icon](PowerShell_5.0_icon.png)
+| Task | Cmdlet | Common Aliases|
+|------|--------|---------------|
+|Get help| Get-Help <Command-Name>| man|
+|List commands| |Get-Command| |
+|Get current location| Get-Location| pwd|
+|Change location|Set-Location <Path>| cd|
+|List directory contents| Get-Childitem| is,dir,gci|
+|Get file content| Get-Content <file=Path>|gc,cat|
+|Copy items| Copy-Item <source><Destination>|cp,cpi|
+|Move items| Move-Item <Name><Destination>| mv, mi|
+|Remove items|Remove-Item <Name>| rm|
+|Create new items| New-Item <Name>| mkdire,touch|
+|Manage processes|Get-Process, Stop-Process| |
+|Manage services| Get-Service, Start-Service| |
 
 About PowerShell
 
@@ -89,7 +103,7 @@ When writing and debugging PowerShell scripts, using a dedicated editor can grea
 - Multi-tab interface for working with multiple scripts.
   **Best for**: Beginners and users working on older versions of PowerShell.
 
-ISE Image goes here
+![ise_panes](ISE_panes.png)
 
 Visual Studio Code (VS Code)
 
@@ -102,8 +116,7 @@ Support for Git and other version control systems.
 Cross-platform (Windows, macOS, Linux).
 Best for: Modern PowerShell development, especially with PowerShell 7 and cross-platform scripting.
 
-VSCode Image goes here
-
+![vscode](./vs_code.png)
 Useful Resources for Learning PowerShell
 Official PowerShell Documentation
 PowerShell GitHub Repository
