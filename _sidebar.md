@@ -6,3 +6,5 @@
   - [PowerShell](cheatsheets/powershell.md)
 
 - About Me
+- [My projects](./aboutme/myProjects.md)
+- [Online resume](./aboutme/Zachary_Stcyr_2583885.md)
