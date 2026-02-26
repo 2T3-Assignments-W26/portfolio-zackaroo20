@@ -15,6 +15,7 @@
 |Create new items| New-Item <Name>| mkdire,touch|
 |Manage processes|Get-Process, Stop-Process| |
 |Manage services| Get-Service, Start-Service| |
+|Get-Content|Gets the content of a file| |
 
 About PowerShell
 
