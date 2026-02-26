@@ -1,0 +1,139 @@
+**********************
+PowerShell transcript start
+Start time: 20260225185759
+Username: ZACK\tomje
+RunAs User: ZACK\tomje
+Configuration Name: 
+Machine: ZACK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.4.0_x64__8wekyb3d8bbwe\pwsh.dll
+Process ID: 39940
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is lab04_transcript.txt
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> notepad lab04_transcript.txt
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> git rm test.txt
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> dir
+
+    Directory:
+C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2026-02-19 10:43 AM                cheatsheets
+d----          2026-02-19 10:43 AM                Lab3 Files
+-a---          2026-02-12 10:53 AM            140 _sidebar.md
+-a---          2026-02-19 11:13 AM              0 .gitignore
+-a---          2026-02-12 10:53 AM              2 .nojekyll
+-a---          2026-02-12 10:53 AM           4127 index.html
+-a---          2026-02-25  6:58 PM            759 lab04_transc
+                                                  ript.txt
+-a---          2026-02-13  2:43 PM            165 README.md
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> notepad .gitignore
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> cd .gitignore
+Set-Location: Cannot find path '.gitignore' because it does not exist.
+Set-Location: Cannot find path '.gitignore' because it does not exist.
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> code .gitignore
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> dir
+
+    Directory:
+C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2026-02-19 10:43 AM                cheatsheets
+d----          2026-02-19 10:43 AM                Lab3 Files
+-a---          2026-02-12 10:53 AM            140 _sidebar.md
+-a---          2026-02-25  7:02 PM              5 .gitignore
+-a---          2026-02-12 10:53 AM              2 .nojekyll
+-a---          2026-02-12 10:53 AM           4127 index.html
+-a---          2026-02-25  7:01 PM           1986 lab04_transc
+                                                  ript.txt
+-a---          2026-02-13  2:43 PM            165 README.md
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> git commit -am "fixed git ignore"
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> new-item test.txt
+
+    Directory:
+C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          2026-02-25  7:03 PM              0 test.txt
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> git commit -am "second attempt, addd test.txt to see if gitifnore works
+"
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> git status
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> code test.txt
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> notepad test.txt
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> notepad test.txt
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> git add test.txt
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> dir
+
+    Directory: C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2026-02-19 10:43 AM                cheatsheets
+d----          2026-02-19 10:43 AM                Lab3 Files
+-a---          2026-02-12 10:53 AM            140 _sidebar.md
+-a---          2026-02-25  7:02 PM              5 .gitignore
+-a---          2026-02-12 10:53 AM              2 .nojekyll
+-a---          2026-02-12 10:53 AM           4127 index.html
+-a---          2026-02-25  7:05 PM           3968 lab04_transcript.txt
+-a---          2026-02-13  2:43 PM            165 README.md
+-a---          2026-02-25  7:05 PM             21 test.txt
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20> cd cheatsheets
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20\cheatsheets> dir
+
+    Directory: C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20\cheatsheets
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          2026-02-12 11:14 AM             68 git.md
+-a---          2026-02-12 10:53 AM          43654 ISE_panes.png
+-a---          2026-02-12 10:53 AM           8265 PowerShell_5.0_icon.png
+-a---          2026-02-19 10:41 AM           4497 powershell.md
+-a---          2026-02-12 10:53 AM          75022 vs_code.png
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20\cheatsheets> cd git.md
+Set-Location: Cannot find path 'git.md' because it does not exist.
+Set-Location: Cannot find path 'git.md' because it does not exist.
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20\cheatsheets> code git.md
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20\cheatsheets> git status
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20\cheatsheets> git staus
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20\cheatsheets> git status
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20\cheatsheets> git commit -am "deleted git.md content"
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20\cheatsheets> git log -- cheatsheets/gitmd
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20\cheatsheets> git log -- cheatsheets/git.md
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20\cheatsheets> git log -- cheatsheets\git.md
+
+PS C:\Users\tomje\Documents\InfoTech2t3\Lab3\portfolio-zackaroo20\cheatsheets> git log
+    Initial commit
+(END)
